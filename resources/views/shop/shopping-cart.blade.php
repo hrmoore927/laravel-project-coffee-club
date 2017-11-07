@@ -35,7 +35,7 @@ Coffee Shopping Cart
         <hr>
         <div class="row">
             <div class="col-sm-6 col-sm-offset-3">
-                <button class="btn btn-success" type="button">Checkout</button>
+                <a href="{{ route('checkout') }}" class="btn btn-success" type="button">Checkout</a>
             </div>
         </div>
     @else
